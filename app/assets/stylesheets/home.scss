@@ -151,7 +151,7 @@ header {
 
 /* about ================================ */
 .about-main {
-  padding: 180px 8% 0;
+  padding: 180px 2% 0;
   color: white;
   width:100%;
   background-image: url("/about2.jpg");
@@ -172,10 +172,35 @@ header {
   width: 84%;
 }
 
-.about-2 {
-  padding: 180px 8% 0;
+.about-1 {
+  padding: 10px 2% 290px 2%  ;
+  border-color: black;
   color: white;
-  background-image: url("/about2.jpg");
+  background-image: url("/sample-back1.jpg");
+}
+.about-2 {
+  padding: 10px 2% 290px 2%  ;
+  background-color: gray;
+  color: white;
+  background-image: url("/sample-back1.jpg");
+}
+.about-3 {
+  padding: 10px 2% 290px 2%  ;
+  background-color: gray;
+  color: white;
+  background-image: url("/sample-back1.jpg");
+}
+.about-4 {
+  padding: 10px 2% 290px 2%  ;
+  background-color: gray;
+  color: white;
+  background-image: url("/sample-back1.jpg");
+}
+.about-5 {
+  padding: 10px 2% 290px 2%  ;
+  background-color: gray;
+  color: white;
+  background-image: url("/sample-back1.jpg") ;
 }
 
 .about-2 h2 {
