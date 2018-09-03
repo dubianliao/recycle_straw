@@ -66,7 +66,8 @@ body {
 /* ヘッダー ================================ */
 header {
   height: 64px;
-  position: absolute;
+  position: fixed;
+  top:0;
   z-index: 100;
   width: 100%;
 }
