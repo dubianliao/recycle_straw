@@ -128,11 +128,33 @@ header {
   min-height: 100%;
   color: white;
   background-color: #3ecdc6;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;
   background-position: center 50%;
   background-size: cover;
-  background-image: url("/top.jpg");
+  background-image: url("/top2.jpg");
+}*/
+
+  background: url(/top2.jpg) repeat-x 0 0;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+  -moz-animation: loop 35s linear infinite;
+  animation: loop 35s linear infinite;
 }
+
+/*アニメーション*/
+@keyframes loop {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -500px 0;
+  }
+}
+
 
 .top-message {
   position: relative;
@@ -153,20 +175,61 @@ header {
 /* about ================================ */
 
 .about-main{
-  padding-top: 20px;
+  padding-top: 0px;
+  text-align: center;
+
+  background-image:url("/top.jpg");
 }
 
 .about{
-  line-height: 500px;
-  width:80%;
+  height: 700px;
+  width:100%;
+  margin: 0 auto;
   color:white;
-  background-color: rgb(109,166,184,0.5);
+  /*background-color: rgba(109,166,184,0.5);*/
 }
 
+.ab1{
+  padding-top: 150px;
+  background-image: url("/about1.jpg");
+}
 
+.btn-container{
+  margin:100px auto 0px auto;
+  width:500px;
+}
 
+.aboutbtn{
+  display: inline-block;
+  text-align: center;
+  padding-top: 15px;
 
+  height:50px;
+  width: 200px;
+  background-color:rgba(1,0,0,0.5);
+  color:white;
+  border-radius: 10px;
+}
 
+.ab2{
+  padding-top: 150px;
+  background-image: url("/about2.jpg");
+}
+
+.ab3{
+  padding-top: 150px;
+  background-image: url("/about3.jpg");
+}
+
+.ab4{
+  padding-top: 150px;
+  background-image: url("/about4.jpg");
+}
+
+.ab5{
+  padding-top: 150px;
+  background-image: url("/about5.jpg");
+}
 
 
 
