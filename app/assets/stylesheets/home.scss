@@ -151,78 +151,23 @@ header {
 }
 
 /* about ================================ */
-.about-main {
-  padding: 180px 2% 0;
-  color: white;
-  width:100%;
-  background-image: url("/about2.jpg");
+
+.about-main{
+  padding-top: 20px;
 }
 
-.about-main h2 {
-  font-size: 64px;
-  font-weight: 500;
-  line-height: 1.4;
+.about{
+  line-height: 500px;
+  width:80%;
+  color:white;
+  background-color: rgb(109,166,184,0.5);
 }
 
-.about-main p {
-  font-weight: 200;
-  font-size: 20px;
-}
 
-.about-img {
-  width: 84%;
-}
 
-.about-1 {
-  height: 300px;
-  width:100%;
 
-  border-color: 2px solid black;
-  color: blue;
-}
-.about-2 {
-  height: 300px;
-  width:100%;
 
-  border-color: 2px solid black;
-  color: blue;
-}
-.about-3 {
-  height: 300px;
-  width:100%;
 
-  border-color: 2px solid black;
-  color: blue;
-}
-.about-4 {
-  height: 300px;
-  width:100%;
-
-  border-color: 2px solid black;
-  color: blue;
-}
-.about-5 {
-  height: 300px;
-  width:100%;
-
-  border-color: 2px solid black;
-  color: blue;
-}
-
-.about-2 h2 {
-  font-size: 64px;
-  font-weight: 500;
-  line-height: 1.4;
-}
-
-.about-main p {
-  font-weight: 200;
-  font-size: 20px;
-}
-
-.about-img {
-  width: 84%;
-}
 
 
 /* フォーム================================ */
