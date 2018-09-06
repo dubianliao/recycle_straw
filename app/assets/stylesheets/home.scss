@@ -41,7 +41,7 @@ form input[type="submit"] {
 /* 共通レイアウト ================================ */
 body {
   color: #2d3133;
-  background-color: #3ecdc6;
+  background-color: #f5f8fa;
   margin: 0;
   min-height: 1vh;
 }
@@ -118,6 +118,24 @@ header {
 }
 
 /* top ================================ */
+
+.loading {
+	width: 60px;
+	height: 60px;
+	border: 5px solid rgba(255,255,255,0.4);
+	border-top-color: rgba(255,255,255,0.9);
+	border-radius: 50%;
+	animation: spin 1.2s linear 0s infinite;
+  margin:100px auto;
+  z-index: 100;
+}
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+
 .top-main {
   padding: 200px 0 100px;
   text-align: center;
@@ -127,7 +145,7 @@ header {
   height: auto;
   min-height: 100%;
   color: white;
-  background-color: #3ecdc6;
+  background-color:black;
   /*background-repeat: no-repeat;
   background-position: center 50%;
   background-size: cover;
@@ -178,7 +196,7 @@ header {
   padding-top: 0px;
   text-align: center;
 
-  background-image:url("/top.jpg");
+  background-image:url("");
 }
 
 .about{
@@ -303,4 +321,39 @@ header {
   width: 100%;
   border-radius: 0 0 2px 2px;
   font-size: 14px;
+}
+
+/* item ================================ */
+
+.items-group{
+  background-color: blue;
+  background-image: url(/item1.jpg);
+  height:800px;
+  margin-top: 0px;
+  padding-top: 64px;
+
+
+}
+
+.items-header {
+  text-align: center;
+  margin:0px auto 15px auto;
+
+  background-color:rgba(255,255,255,0.7);
+}
+.items-wrapper{
+  float:left;
+  padding:50px 50px 20px 15px;
+  background-color:rgba(255,255,255,0.7);
+}
+.item-image{
+  float:left;
+  height:200px;
+  width: 200px;
+  background-color: green;
+}
+.item-text{
+  float:right;
+  text-align: left;
+  margin-left: 20px;
 }

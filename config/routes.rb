@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   get "/" => "home#top"
   get "/about" => "home#about"
+  get "/items" => "home#items"
 
 end
