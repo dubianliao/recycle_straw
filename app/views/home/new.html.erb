@@ -1,0 +1,18 @@
+
+<div class="new_space"></div>
+
+<div class="new_container">
+  <div class="new_about">
+    <%= form_tag("/new/create")do %>
+      <div class="new_subject">
+        商品タイトル<br>
+        <textarea name="subject"></textarea>
+      </div>
+      <div class="new_content">
+        商品説明<br>
+        <textarea name="content"></textarea><br>
+        <input type="submit" name="投稿">
+      </div>
+    <% end %>
+  </div>
+</div>

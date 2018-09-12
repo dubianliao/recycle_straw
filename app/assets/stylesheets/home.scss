@@ -337,7 +337,7 @@ header {
 
 .items-header {
   text-align: center;
-  margin:0px auto 15px auto;
+  margin:100px auto 15px auto;
 
   background-color:rgba(255,255,255,0.7);
 }
@@ -352,8 +352,25 @@ header {
   width: 200px;
   background-color: green;
 }
-.item-text{
-  float:right;
+.item-subject{
+  float:left;
   text-align: left;
-  margin-left: 20px;
+  margin: 0px 500px 0px 500px;
+}
+.item-text{
+  float:left;
+  text-align: left;
+  margin: 5px 500px 200px 500px;
+}
+
+
+/* new ================================ */
+.new_space{
+  padding-top: 150px;
+}
+
+.new_container{
+  margin:0 auto;
+  width: 300px;
+  text-align: center;
 }
